@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./filterPanel.css";
 
-export default class Filter_panel extends Component {
+export default class FilterPanel extends Component {
   constructor(props) {
     super(props);
     this.state = {

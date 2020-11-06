@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./naryadPanel.css";
 
-export default class Naryad_panel extends Component {
+export default class NaryadPanel extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -14,7 +14,7 @@ export default class Naryad_panel extends Component {
     if (this.state.isPanel) this.setState({ classPanel: "modal modal_hide"});
       else this.setState({ classPanel: "modal"});
     this.setState({ isPanel: !this.state.isPanel});
-  }    
+  }
 
   render() {
     return (
