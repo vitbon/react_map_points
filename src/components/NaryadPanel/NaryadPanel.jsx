@@ -36,16 +36,15 @@ export default class NaryadPanel extends Component {
             <span class="close_btn" onClick={this.handleSlider}>&times;</span>
           </div>
           <div className="modal__body">
-            <label>Дата
+            <label>Дата:
               <input type="date" name="date" value="2020-10-25" />
             </label>
             <br />
-            <label>Ответственный
+            <label>Ответственный:
               <input type="text" name="fio" value="Иванов Иван Иванович" />
             </label>
             <br />
-            <label>Соисполнители
-              <button>Маршрут</button>
+            <label>Соисполнители:
               <input type="text" name="co" value="Выберите соисполнителей" />
             </label>
             <br />

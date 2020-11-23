@@ -1,7 +1,7 @@
 .modal {
   right: 0;
   top: 0;
-  width: 700px;
+  width: 500px;
   height: 100%;  
   position: fixed;
   color: black;
@@ -12,20 +12,20 @@
 }
 
 .modal_hide {
-  right: -700px;
+  right: -500px;
   animation-name: animate_hide;
   animation-timing-function: ease-in-out;
   animation-duration: 0.5s;
 }
 
 @keyframes animate {
-    from { right: -700px; opacity: 0; }
+    from { right: -500px; opacity: 0; }
     to { right: 0; opacity: 1; }
 }
 
 @keyframes animate_hide {
     from { right: 0; opacity: 1; }     
-    to { right: -700px; opacity: 0; }
+    to { right: -500px; opacity: 0; }
 }
 
 .close_btn {
@@ -45,7 +45,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-content: flex-start;
-  width: 700px;
+  width: 500px;
   height: 100%;
   position: relative;
   background: white;
@@ -102,7 +102,7 @@ label {
 
 label > input {
   position: absolute;
-  left: 400px;
+  left: 140px;
   width: 180px;
 }
 
